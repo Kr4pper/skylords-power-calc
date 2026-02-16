@@ -1,0 +1,24 @@
+{
+  "name": "skylords-power-calc",
+  "version": "0.1.0",
+  "description": "bla",
+  "author": "Kr4pper",
+  "main": "index.js",
+  "scripts": {
+    "build": "rmdir /s /q dist && tsc -b && xcopy src\\util\\*.json dist\\util",
+    "start": "node dist/index.js",
+    "restart": "npm run build && cross-env LOG_LEVEL=INFO npm run start input.txt",
+    "parseCards": "node dist/util/parse-card-ids.js",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}

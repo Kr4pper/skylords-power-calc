@@ -1,0 +1,1176 @@
+#[template(id = 253, rarity = 1, is_promo = false, name = "Northguards", card_type = Squad)]
+    Northguards,
+    #[template(id = 254, rarity = 1, is_promo = false, name = "Thugs", card_type = Squad)]
+    Thugs,
+    #[template(id = 255, rarity = 2, is_promo = false, name = "Enforcer", card_type = Squad)]
+    Enforcer,
+    #[template(id = 256, rarity = 1, is_promo = false, name = "Defenders", card_type = Squad)]
+    Defenders,
+    #[template(id = 287, rarity = 1, is_promo = false, name = "Tremor", card_type = Squad)]
+    Tremor,
+    #[template(id = 288, rarity = 1, is_promo = false, name = "Master Archers", card_type = Squad)]
+    MasterArchers,
+    #[template(id = 289, rarity = 1, is_promo = false, name = "Emberstrike", card_type = Squad)]
+    Emberstrike,
+    #[template(id = 290, rarity = 3, is_promo = false, name = "Juggernaut", card_type = Squad)]
+    Juggernaut,
+    #[template(id = 301, rarity = 1, is_promo = false, name = "Wrathblades", card_type = Squad)]
+    Wrathblades,
+    #[template(id = 302, rarity = 1, is_promo = false, name = "Rifle Cultists", card_type = Squad)]
+    RifleCultists,
+    #[template(id = 303, rarity = 1, is_promo = false, name = "Forsaken", card_type = Squad)]
+    Forsaken,
+    #[template(id = 304, rarity = 4, is_promo = false, name = "Harvester", card_type = Squad)]
+    Harvester,
+    #[template(id = 305, rarity = 1, is_promo = false, name = "Skeleton Warriors", card_type = Squad)]
+    SkeletonWarriors,
+    #[template(id = 316, rarity = 2, is_promo = false, name = "Construct", card_type = Squad)]
+    Construct,
+    #[template(id = 344, rarity = 2, is_promo = false, name = "Coldsnap", card_type = Spell)]
+    Coldsnap,
+    #[template(id = 345, rarity = 1, is_promo = false, name = "Surge of Light", card_type = Spell)]
+    SurgeOfLight,
+    #[template(id = 346, rarity = 1, is_promo = false, name = "Sunstriders", card_type = Squad)]
+    Sunstriders,
+    #[template(id = 354, rarity = 1, is_promo = false, name = "Eruption", card_type = Spell)]
+    Eruption,
+    #[template(id = 355, rarity = 3, is_promo = false, name = "Inferno", card_type = Spell)]
+    Inferno,
+    #[template(id = 356, rarity = 1, is_promo = false, name = "Imperials", card_type = Squad)]
+    Imperials,
+    #[template(id = 357, rarity = 2, is_promo = false, name = "White Rangers", card_type = Squad)]
+    WhiteRangers,
+    #[template(id = 359, rarity = 1, is_promo = false, name = "Phalanx", card_type = Squad)]
+    Phalanx,
+    #[template(id = 361, rarity = 1, is_promo = false, name = "Spearmen", card_type = Squad)]
+    Spearmen,
+    #[template(id = 362, rarity = 1, is_promo = false, name = "Windweavers", card_type = Squad)]
+    Windweavers,
+    #[template(id = 364, rarity = 2, is_promo = false, name = "Frost Sorceress", card_type = Squad)]
+    FrostSorceress,
+    #[template(id = 365, rarity = 3, is_promo = false, name = "Ice Guardian", card_type = Squad)]
+    IceGuardian,
+    #[template(id = 366, rarity = 1, is_promo = false, name = "Silverwind Lancers", card_type = Squad)]
+    SilverwindLancers,
+    #[template(id = 367, rarity = 2, is_promo = false, name = "Frost Mage", card_type = Squad)]
+    FrostMage,
+    #[template(id = 368, rarity = 2, is_promo = false, name = "Lyrish Knight", card_type = Squad)]
+    LyrishKnight,
+    #[template(id = 370, rarity = 2, is_promo = false, name = "Kobold Engineer", card_type = Squad)]
+    KoboldEngineer,
+    #[template(id = 372, rarity = 1, is_promo = false, name = "Rageclaws", card_type = Squad)]
+    Rageclaws,
+    #[template(id = 373, rarity = 1, is_promo = false, name = "Wrecker", card_type = Squad)]
+    Wrecker,
+    #[template(id = 374, rarity = 1, is_promo = false, name = "Magma Spore", card_type = Squad)]
+    MagmaSpore,
+    #[template(id = 375, rarity = 3, is_promo = false, name = "Sunderer", card_type = Squad)]
+    Sunderer,
+    #[template(id = 376, rarity = 2, is_promo = false, name = "Strikers", card_type = Squad)]
+    Strikers,
+    #[template(id = 377, rarity = 3, is_promo = false, name = "Scythe Fiends", card_type = Squad)]
+    ScytheFiends,
+    #[template(id = 378, rarity = 4, is_promo = false, name = "Firedancer", card_type = Squad)]
+    Firedancer,
+    #[template(id = 379, rarity = 1, is_promo = false, name = "Magma Hurler", card_type = Squad)]
+    MagmaHurler,
+    #[template(id = 380, rarity = 3, is_promo = false, name = "Virtuoso", card_type = Squad)]
+    Virtuoso,
+    #[template(id = 386, rarity = 2, is_promo = false, name = "Boom Brothers", card_type = Squad)]
+    BoomBrothers,
+    #[template(id = 387, rarity = 3, is_promo = false, name = "Giant Slayer", card_type = Squad)]
+    GiantSlayer,
+    #[template(id = 388, rarity = 4, is_promo = false, name = "Moloch", card_type = Squad)]
+    Moloch,
+    #[template(id = 402, rarity = 3, is_promo = false, name = "Timeless One", card_type = Squad)]
+    TimelessOne,
+    #[template(id = 404, rarity = 2, is_promo = false, name = "Nox Trooper", card_type = Squad)]
+    NoxTrooper,
+    #[template(id = 405, rarity = 3, is_promo = false, name = "Shadow Mage", card_type = Squad)]
+    ShadowMage,
+    #[template(id = 406, rarity = 2, is_promo = false, name = "Executor", card_type = Squad)]
+    Executor,
+    #[template(id = 407, rarity = 1, is_promo = false, name = "Mutating Frenzy", card_type = Squad)]
+    MutatingFrenzy,
+    #[template(id = 408, rarity = 3, is_promo = false, name = "Ashbone Pyro", card_type = Squad)]
+    AshbonePyro,
+    #[template(id = 413, rarity = 2, is_promo = false, name = "Vulcan", card_type = Squad)]
+    Vulcan,
+    #[template(id = 414, rarity = 3, is_promo = false, name = "Battleship", card_type = Squad)]
+    Battleship,
+    #[template(id = 415, rarity = 3, is_promo = false, name = "Grove Spirit", card_type = Squad)]
+    GroveSpirit,
+    #[template(id = 416, rarity = 2, is_promo = false, name = "Shaman", card_type = Squad)]
+    Shaman,
+    #[template(id = 417, rarity = 1, is_promo = false, name = "Mauler", card_type = Squad)]
+    Mauler,
+    #[template(id = 418, rarity = 3, is_promo = false, name = "Fathom Lord", card_type = Squad)]
+    FathomLord,
+    #[template(id = 419, rarity = 3, is_promo = false, name = "Colossus", card_type = Squad)]
+    Colossus,
+    #[template(id = 420, rarity = 3, is_promo = false, name = "Spikeroot", card_type = Squad)]
+    Spikeroot,
+    #[template(id = 421, rarity = 2, is_promo = false, name = "Thornbark", card_type = Squad)]
+    Thornbark,
+    #[template(id = 426, rarity = 3, is_promo = false, name = "Death Ray", card_type = Squad)]
+    DeathRay,
+    #[template(id = 427, rarity = 2, is_promo = false, name = "Energy Parasite", card_type = Squad)]
+    EnergyParasite,
+    #[template(id = 431, rarity = 4, is_promo = false, name = "Parasite Swarm", card_type = Squad)]
+    ParasiteSwarm,
+    #[template(id = 432, rarity = 2, is_promo = false, name = "Living Tower", card_type = Building)]
+    LivingTower,
+    #[template(id = 434, rarity = 1, is_promo = false, name = "Nightcrawler", card_type = Squad)]
+    Nightcrawler,
+    #[template(id = 442, rarity = 2, is_promo = false, name = "Burrower", card_type = Squad)]
+    Burrower,
+    #[template(id = 443, rarity = 1, is_promo = false, name = "Drones", card_type = Squad)]
+    Drones,
+    #[template(id = 444, rarity = 1, is_promo = false, name = "Shadow Insect", card_type = Squad)]
+    ShadowInsect,
+    #[template(id = 507, rarity = 2, is_promo = false, name = "Winter Witch", card_type = Squad)]
+    WinterWitch,
+    #[template(id = 524, rarity = 3, is_promo = false, name = "Skyelf Templar", card_type = Squad)]
+    SkyelfTemplar,
+    #[template(id = 526, rarity = 3, is_promo = false, name = "Skyelf Commander", card_type = Squad)]
+    SkyelfCommander,
+    #[template(id = 527, rarity = 3, is_promo = false, name = "Skyelf Sage", card_type = Squad)]
+    SkyelfSage,
+    #[template(id = 529, rarity = 1, is_promo = false, name = "Tempest", card_type = Squad)]
+    Tempest,
+    #[template(id = 534, rarity = 3, is_promo = false, name = "Magma Fiend", card_type = Squad)]
+    MagmaFiend,
+    #[template(id = 536, rarity = 3, is_promo = false, name = "Shrine of Martyrs", card_type = Building)]
+    ShrineofMartyrs,
+    #[template(id = 538, rarity = 3, is_promo = false, name = "Ice Shield Tower", card_type = Building)]
+    IceShieldTower,
+    #[template(id = 539, rarity = 2, is_promo = false, name = "Kobold Laboratory", card_type = Building)]
+    KoboldLaboratory,
+    #[template(id = 540, rarity = 1, is_promo = false, name = "Defense Tower", card_type = Building)]
+    DefenseTower,
+    #[template(id = 541, rarity = 3, is_promo = false, name = "Shrine of War", card_type = Building)]
+    ShrineofWar,
+    #[template(id = 542, rarity = 2, is_promo = false, name = "Makeshift Tower", card_type = Building)]
+    MakeshiftTower,
+    #[template(id = 543, rarity = 1, is_promo = false, name = "Fire Bomb", card_type = Building)]
+    FireBomb,
+    #[template(id = 544, rarity = 3, is_promo = false, name = "Mortar Tower", card_type = Building)]
+    MortarTower,
+    #[template(id = 546, rarity = 1, is_promo = false, name = "Werebeasts", card_type = Squad)]
+    Werebeasts,
+    #[template(id = 547, rarity = 1, is_promo = false, name = "Ghostspears", card_type = Squad)]
+    Ghostspears,
+    #[template(id = 548, rarity = 3, is_promo = false, name = "Razorleaf", card_type = Squad)]
+    Razorleaf,
+    #[template(id = 549, rarity = 2, is_promo = false, name = "Spore Launcher", card_type = Squad)]
+    SporeLauncher,
+    #[template(id = 550, rarity = 4, is_promo = false, name = "Primeval Watcher", card_type = Squad)]
+    PrimevalWatcher,
+    #[template(id = 552, rarity = 4, is_promo = false, name = "Timeshifter Spirit", card_type = Squad)]
+    TimeshifterSpirit,
+    #[template(id = 553, rarity = 3, is_promo = false, name = "Shrine of Memory", card_type = Building)]
+    ShrineofMemory,
+    #[template(id = 554, rarity = 3, is_promo = false, name = "Wheel of Gifts", card_type = Building)]
+    WheelofGifts,
+    #[template(id = 555, rarity = 1, is_promo = false, name = "Tunnel", card_type = Building)]
+    Tunnel,
+    #[template(id = 556, rarity = 2, is_promo = false, name = "Fountain of Rebirth", card_type = Building)]
+    FountainofRebirth,
+    #[template(id = 557, rarity = 2, is_promo = false, name = "Healing Well", card_type = Building)]
+    HealingWell,
+    #[template(id = 558, rarity = 2, is_promo = false, name = "Darkelf Assassins", card_type = Squad)]
+    DarkelfAssassins,
+    #[template(id = 559, rarity = 1, is_promo = false, name = "Ripper", card_type = Squad)]
+    Ripper,
+    #[template(id = 560, rarity = 2, is_promo = false, name = "Unstable Demon", card_type = Squad)]
+    UnstableDemon,
+    #[template(id = 561, rarity = 3, is_promo = false, name = "Overlord", card_type = Squad)]
+    Overlord,
+    #[template(id = 562, rarity = 3, is_promo = false, name = "Cultist Master", card_type = Squad)]
+    CultistMaster,
+    #[template(id = 563, rarity = 2, is_promo = false, name = "Necrofury", card_type = Squad)]
+    Necrofury,
+    #[template(id = 564, rarity = 4, is_promo = false, name = "Wrathgazer", card_type = Squad)]
+    Wrathgazer,
+    #[template(id = 565, rarity = 3, is_promo = false, name = "Shrine of Greed", card_type = Building)]
+    ShrineofGreed,
+    #[template(id = 566, rarity = 1, is_promo = false, name = "Decomposer", card_type = Building)]
+    Decomposer,
+    #[template(id = 567, rarity = 2, is_promo = false, name = "Portal Nexus", card_type = Building)]
+    PortalNexus,
+    #[template(id = 573, rarity = 3, is_promo = false, name = "Frost Crystal", card_type = Building)]
+    FrostCrystal,
+    #[template(id = 618, rarity = 2, is_promo = false, name = "Corpse Explosion", card_type = Spell)]
+    CorpseExplosion,
+    #[template(id = 619, rarity = 1, is_promo = false, name = "Ray of Light", card_type = Spell)]
+    RayofLight,
+    #[template(id = 620, rarity = 1, is_promo = false, name = "Glacier Shell", card_type = Spell)]
+    GlacierShell,
+    #[template(id = 647, rarity = 4, is_promo = false, name = "Stronghold", card_type = Building)]
+    Stronghold,
+    #[template(id = 648, rarity = 2, is_promo = false, name = "Resource Booster", card_type = Building)]
+    ResourceBooster,
+    #[template(id = 649, rarity = 3, is_promo = false, name = "Altar of Chaos", card_type = Building)]
+    AltarofChaos,
+    #[template(id = 650, rarity = 2, is_promo = false, name = "Furnace of Flesh", card_type = Building)]
+    FurnaceofFlesh,
+    #[template(id = 651, rarity = 1, is_promo = false, name = "Lifestealer", card_type = Building)]
+    Lifestealer,
+    #[template(id = 661, rarity = 3, is_promo = false, name = "War Eagle", card_type = Squad)]
+    WarEagle,
+    #[template(id = 662, rarity = 3, is_promo = false, name = "Mana Wing", card_type = Squad)]
+    ManaWing,
+    #[template(id = 663, rarity = 2, is_promo = false, name = "Shadow Phoenix", card_type = Squad)]
+    ShadowPhoenix,
+    #[template(id = 664, rarity = 3, is_promo = false, name = "Fallen Skyelf", card_type = Squad)]
+    FallenSkyelf,
+    #[template(id = 672, rarity = 2, is_promo = false, name = "Scavenger", card_type = Squad)]
+    Scavenger,
+    #[template(id = 673, rarity = 1, is_promo = false, name = "Fire Stalker", card_type = Squad)]
+    FireStalker,
+    #[template(id = 674, rarity = 2, is_promo = false, name = "Swiftclaw", card_type = Squad)]
+    Swiftclaw,
+    #[template(id = 677, rarity = 2, is_promo = false, name = "Fire Dragon", card_type = Squad)]
+    FireDragon,
+    #[template(id = 682, rarity = 4, is_promo = false, name = "Dreadnought", card_type = Squad)]
+    Dreadnought,
+    #[template(id = 683, rarity = 4, is_promo = false, name = "Avatar of Frost", card_type = Squad)]
+    AvatarofFrost,
+    #[template(id = 700, rarity = 1, is_promo = false, name = "Cannon Tower", card_type = Building)]
+    CannonTower,
+    #[template(id = 702, rarity = 2, is_promo = false, name = "Creeping Paralysis", card_type = Spell)]
+    CreepingParalysis,
+    #[template(id = 703, rarity = 2, is_promo = false, name = "Skyfire Drake", card_type = Squad)]
+    SkyfireDrake,
+    #[template(id = 705, rarity = 1, is_promo = false, name = "Primal Defender", card_type = Building)]
+    PrimalDefender,
+    #[template(id = 706, rarity = 3, is_promo = false, name = "Dreadcharger", card_type = Squad)]
+    Dreadcharger,
+    #[template(id = 707, rarity = 1, is_promo = false, name = "Swamp Drake", card_type = Squad)]
+    SwampDrake,
+    #[template(id = 708, rarity = 1, is_promo = false, name = "Giant Wyrm", card_type = Squad)]
+    GiantWyrm,
+    #[template(id = 709, rarity = 3, is_promo = false, name = "Fire Worm", card_type = Squad)]
+    FireWorm,
+    #[template(id = 716, rarity = 3, is_promo = false, name = "Aura of Corruption", card_type = Spell)]
+    AuraofCorruption,
+    #[template(id = 717, rarity = 2, is_promo = false, name = "Phase Tower", card_type = Building)]
+    PhaseTower,
+    #[template(id = 718, rarity = 2, is_promo = false, name = "Grimvine", card_type = Squad)]
+    Grimvine,
+    #[template(id = 719, rarity = 3, is_promo = false, name = "Deepcoil Worm", card_type = Squad)]
+    DeepcoilWorm,
+    #[template(id = 720, rarity = 4, is_promo = false, name = "Shadow Worm", card_type = Squad)]
+    ShadowWorm,
+    #[template(id = 723, rarity = 2, is_promo = false, name = "Rallying Banner", card_type = Building)]
+    RallyingBanner,
+    #[template(id = 724, rarity = 2, is_promo = false, name = "Thunderstorm", card_type = Spell)]
+    Thunderstorm,
+    #[template(id = 726, rarity = 3, is_promo = false, name = "Earthshaker", card_type = Spell)]
+    Earthshaker,
+    #[template(id = 728, rarity = 1, is_promo = false, name = "Kobold Trick", card_type = Spell)]
+    KoboldTrick,
+    #[template(id = 738, rarity = 2, is_promo = false, name = "Wallbreaker", card_type = Spell)]
+    Wallbreaker,
+    #[template(id = 739, rarity = 3, is_promo = false, name = "Ward of the North", card_type = Spell)]
+    WardoftheNorth,
+    #[template(id = 740, rarity = 1, is_promo = false, name = "Nasty Surprise", card_type = Spell)]
+    NastySurprise,
+    #[template(id = 741, rarity = 2, is_promo = false, name = "Aura of Pain", card_type = Spell)]
+    AuraofPain,
+    #[template(id = 744, rarity = 3, is_promo = false, name = "Area Ice Shield", card_type = Spell)]
+    AreaIceShield,
+    #[template(id = 745, rarity = 2, is_promo = false, name = "Tower of Flames", card_type = Building)]
+    TowerofFlames,
+    #[template(id = 746, rarity = 4, is_promo = false, name = "Frost Shard", card_type = Spell)]
+    FrostShard,
+    #[template(id = 747, rarity = 2, is_promo = false, name = "Maelstrom", card_type = Spell)]
+    Maelstrom,
+    #[template(id = 749, rarity = 2, is_promo = false, name = "Noxious Cloud", card_type = Spell)]
+    NoxiousCloud,
+    #[template(id = 750, rarity = 2, is_promo = false, name = "Ensnaring Roots", card_type = Spell)]
+    EnsnaringRoots,
+    #[template(id = 751, rarity = 2, is_promo = false, name = "Armored Tower", card_type = Building)]
+    ArmoredTower,
+    #[template(id = 770, rarity = 2, is_promo = false, name = "Termite Hill", card_type = Building)]
+    TermiteHill,
+    #[template(id = 771, rarity = 2, is_promo = false, name = "Juice Tank", card_type = Building)]
+    JuiceTank,
+    #[template(id = 772, rarity = 3, is_promo = false, name = "Worldbreaker Gun", card_type = Building)]
+    WorldbreakerGun,
+    #[template(id = 773, rarity = 3, is_promo = false, name = "Comet Catcher", card_type = Building)]
+    CometCatcher,
+    #[template(id = 774, rarity = 1, is_promo = false, name = "Morklay Trap", card_type = Building)]
+    MorklayTrap,
+    #[template(id = 776, rarity = 3, is_promo = false, name = "Rocket Tower", card_type = Building)]
+    RocketTower,
+    #[template(id = 778, rarity = 4, is_promo = false, name = "Spitfire", card_type = Squad)]
+    Spitfire,
+    #[template(id = 781, rarity = 2, is_promo = false, name = "Construction Hut", card_type = Building)]
+    ConstructionHut,
+    #[template(id = 782, rarity = 1, is_promo = false, name = "Breeding Grounds", card_type = Building)]
+    BreedingGrounds,
+    #[template(id = 784, rarity = 2, is_promo = false, name = "Void Maw", card_type = Squad)]
+    VoidMaw,
+    #[template(id = 786, rarity = 4, is_promo = false, name = "Mountaineer", card_type = Squad)]
+    Mountaineer,
+    #[template(id = 787, rarity = 1, is_promo = false, name = "Ice Barrier", card_type = Building)]
+    IceBarrier,
+    #[template(id = 788, rarity = 3, is_promo = false, name = "Mark of the Keeper", card_type = Building)]
+    MarkoftheKeeper,
+    #[template(id = 789, rarity = 3, is_promo = false, name = "Home Soil", card_type = Spell)]
+    HomeSoil,
+    #[template(id = 793, rarity = 4, is_promo = false, name = "Infect", card_type = Spell)]
+    Infect,
+    #[template(id = 794, rarity = 3, is_promo = false, name = "Soulshatter", card_type = Spell)]
+    Soulshatter,
+    #[template(id = 796, rarity = 3, is_promo = false, name = "Parasite", card_type = Spell)]
+    Parasite,
+    #[template(id = 801, rarity = 3, is_promo = false, name = "Lifestream", card_type = Building)]
+    Lifestream,
+    #[template(id = 814, rarity = 3, is_promo = false, name = "Embalmer's Shrine", card_type = Building)]
+    EmbalmersShrine,
+    #[template(id = 815, rarity = 2, is_promo = false, name = "Healing Gardens", card_type = Building)]
+    HealingGardens,
+    #[template(id = 816, rarity = 1, is_promo = false, name = "Stone of Torment", card_type = Building)]
+    StoneofTorment,
+    #[template(id = 819, rarity = 1, is_promo = false, name = "Regrowth", card_type = Spell)]
+    Regrowth,
+    #[template(id = 820, rarity = 1, is_promo = false, name = "Lava Field", card_type = Spell)]
+    LavaField,
+    #[template(id = 826, rarity = 2, is_promo = false, name = "Glyph of Frost", card_type = Spell)]
+    GlyphofFrost,
+    #[template(id = 827, rarity = 1, is_promo = false, name = "Shield Building", card_type = Spell)]
+    ShieldBuilding,
+    #[template(id = 828, rarity = 2, is_promo = false, name = "Blood Healing", card_type = Spell)]
+    BloodHealing,
+    #[template(id = 829, rarity = 1, is_promo = false, name = "Unholy Hero", card_type = Spell)]
+    UnholyHero,
+    #[template(id = 830, rarity = 2, is_promo = false, name = "Suppression", card_type = Spell)]
+    Suppression,
+    #[template(id = 831, rarity = 3, is_promo = false, name = "PlagueOld", card_type = Spell)]
+    PlagueOld,
+    #[template(id = 833, rarity = 3, is_promo = false, name = "Mind Control", card_type = Spell)]
+    MindControl,
+    #[template(id = 834, rarity = 3, is_promo = false, name = "Mine", card_type = Spell)]
+    Mine,
+    #[template(id = 835, rarity = 2, is_promo = false, name = "Retreating Circle", card_type = Spell)]
+    RetreatingCircle,
+    #[template(id = 836, rarity = 1, is_promo = false, name = "Unholy Power", card_type = Spell)]
+    UnholyPower,
+    #[template(id = 838, rarity = 2, is_promo = false, name = "Bloodthirst", card_type = Spell)]
+    Bloodthirst,
+    #[template(id = 839, rarity = 4, is_promo = false, name = "Mindweaver", card_type = Building)]
+    Mindweaver,
+    #[template(id = 840, rarity = 4, is_promo = false, name = "Voodoo Shack", card_type = Building)]
+    VoodooShack,
+    #[template(id = 841, rarity = 4, is_promo = false, name = "Backlash", card_type = Spell)]
+    Backlash,
+    #[template(id = 862, rarity = 3, is_promo = false, name = "Altar of Nihil", card_type = Building)]
+    AltarofNihil,
+    #[template(id = 932, rarity = 2, is_promo = false, name = "Voidstorm", card_type = Spell)]
+    Voidstorm,
+    #[template(id = 933, rarity = 1, is_promo = false, name = "Banner of Glory", card_type = Building)]
+    BannerofGlory,
+    #[template(id = 938, rarity = 3, is_promo = false, name = "Ice Tornado", card_type = SpellMulti)]
+    IceTornado,
+    #[template(id = 957, rarity = 3, is_promo = false, name = "Wildfire", card_type = SpellMulti)]
+    Wildfire,
+    #[template(id = 962, rarity = 1, is_promo = false, name = "Ravage", card_type = Spell)]
+    Ravage,
+    #[template(id = 968, rarity = 4, is_promo = false, name = "Enlightenment", card_type = Spell)]
+    Enlightenment,
+    #[template(id = 969, rarity = 1, is_promo = false, name = "Shatter Ice", card_type = Spell)]
+    ShatterIce,
+    #[template(id = 970, rarity = 3, is_promo = false, name = "Motivate", card_type = Spell)]
+    Motivate,
+    #[template(id = 972, rarity = 3, is_promo = false, name = "Hurricane", card_type = SpellMulti)]
+    Hurricane,
+    #[template(id = 977, rarity = 1, is_promo = false, name = "Undead Army", card_type = Spell)]
+    UndeadArmy,
+    #[template(id = 978, rarity = 3, is_promo = false, name = "Revenge", card_type = Spell)]
+    Revenge,
+    #[template(id = 979, rarity = 2, is_promo = false, name = "Life Weaving", card_type = Spell)]
+    LifeWeaving,
+    #[template(id = 1003, rarity = 4, is_promo = false, name = "Church of Negation", card_type = Building)]
+    ChurchofNegation,
+    #[template(id = 1004, rarity = 1, is_promo = false, name = "Curse of Oink", card_type = Spell)]
+    CurseofOink,
+    #[template(id = 1021, rarity = 4, is_promo = true, name = "Firedancer!", card_type = Squad)]
+    FiredancerPromo,
+    #[template(id = 1029, rarity = 3, is_promo = true, name = "Juggernaut!", card_type = Squad)]
+    JuggernautPromo,
+    #[template(id = 1030, rarity = 3, is_promo = true, name = "Razorleaf!", card_type = Squad)]
+    RazorleafPromo,
+    #[template(id = 1031, rarity = 1, is_promo = true, name = "Swamp Drake!", card_type = Squad)]
+    SwampDrakePromo,
+    #[template(id = 1032, rarity = 2, is_promo = true, name = "Lyrish Knight!", card_type = Squad)]
+    LyrishKnightPromo,
+    #[template(id = 1033, rarity = 2, is_promo = true, name = "Construct!", card_type = Squad)]
+    ConstructPromo,
+    #[template(id = 1034, rarity = 3, is_promo = true, name = "Fallen Skyelf!", card_type = Squad)]
+    FallenSkyelfPromo,
+    #[template(id = 1035, rarity = 4, is_promo = true, name = "Harvester!", card_type = Squad)]
+    HarvesterPromo,
+    #[template(id = 1117, rarity = 1, is_promo = false, name = "Lightblade", card_type = Squad)]
+    LightbladeAShadow,
+    #[template(id = 1119, rarity = 3, is_promo = false, name = "Stormsinger", card_type = Squad)]
+    StormsingerAFire,
+    #[template(id = 1120, rarity = 4, is_promo = false, name = "Core Dredge", card_type = Squad)]
+    CoreDredgeAFrost,
+    #[template(id = 1121, rarity = 1, is_promo = false, name = "Nomad", card_type = Squad)]
+    NomadAFire,
+    #[template(id = 1122, rarity = 3, is_promo = false, name = "Gladiatrix", card_type = Squad)]
+    GladiatrixANature,
+    #[template(id = 1123, rarity = 1, is_promo = false, name = "Spirit Hunters", card_type = Squad)]
+    SpiritHuntersANature,
+    #[template(id = 1124, rarity = 4, is_promo = false, name = "Thunder Wagon", card_type = Squad)]
+    ThunderWagonAFire,
+    #[template(id = 1126, rarity = 3, is_promo = false, name = "Amazon", card_type = Squad)]
+    AmazonAFrost,
+    #[template(id = 1128, rarity = 4, is_promo = false, name = "Forest Elder", card_type = Squad)]
+    ForestElderANature,
+    #[template(id = 1129, rarity = 3, is_promo = false, name = "Nightguard", card_type = Squad)]
+    Nightguard,
+    #[template(id = 1131, rarity = 4, is_promo = false, name = "Nox Carrier", card_type = Squad)]
+    NoxCarrierAFire,
+    #[template(id = 1132, rarity = 1, is_promo = false, name = "Snapjaws", card_type = Squad)]
+    SnapjawsAFire,
+    #[template(id = 1162, rarity = 3, is_promo = false, name = "Matter Mastery", card_type = Spell)]
+    MatterMasteryANature,
+    #[template(id = 1163, rarity = 3, is_promo = false, name = "Northstar", card_type = Building)]
+    NorthstarAFrost,
+    #[template(id = 1164, rarity = 2, is_promo = false, name = "Frontier Keep", card_type = Building)]
+    FrontierKeepAFrost,
+    #[template(id = 1165, rarity = 1, is_promo = false, name = "Blaster Cannon", card_type = Building)]
+    BlasterCannonAFire,
+    #[template(id = 1166, rarity = 2, is_promo = false, name = "Infernal Machine", card_type = Building)]
+    InfernalMachineAShadow,
+    #[template(id = 1167, rarity = 1, is_promo = false, name = "Root Nexus", card_type = Building)]
+    RootNexusANature,
+    #[template(id = 1168, rarity = 2, is_promo = false, name = "Howling Shrine", card_type = Building)]
+    HowlingShrineANature,
+    #[template(id = 1169, rarity = 3, is_promo = false, name = "Soul Splicer", card_type = Building)]
+    SoulSplicerANature,
+    #[template(id = 1170, rarity = 2, is_promo = false, name = "Time Vortex", card_type = Building)]
+    TimeVortexAShadow,
+    #[template(id = 1171, rarity = 3, is_promo = false, name = "Bloodhorn", card_type = Squad)]
+    BloodhornAShadow,
+    #[template(id = 1181, rarity = 1, is_promo = false, name = "Stone Tempest", card_type = Squad)]
+    StoneTempestAFrost,
+    #[template(id = 1182, rarity = 4, is_promo = false, name = "Curse Orb", card_type = Spell)]
+    CurseOrb,
+    #[template(id = 1183, rarity = 4, is_promo = false, name = "Rageflame", card_type = Squad)]
+    RageflameAFrost,
+    #[template(id = 1184, rarity = 1, is_promo = false, name = "Offering", card_type = Spell)]
+    OfferingANature,
+    #[template(id = 1185, rarity = 2, is_promo = false, name = "Bandit Launcher", card_type = Building)]
+    BanditLauncherAFire,
+    #[template(id = 1186, rarity = 4, is_promo = false, name = "Gravity Surge", card_type = Spell)]
+    GravitySurgeAFrost,
+    #[template(id = 1187, rarity = 4, is_promo = false, name = "Nether Warp", card_type = SpellMulti)]
+    NetherWarpAFrost,
+    #[template(id = 1189, rarity = 4, is_promo = false, name = "Disenchant", card_type = Spell)]
+    DisenchantAShadow,
+    #[template(id = 1191, rarity = 1, is_promo = false, name = "Stone Shards", card_type = Squad)]
+    StoneShardsAFrost,
+    #[template(id = 1192, rarity = 3, is_promo = false, name = "Crystal Fiend", card_type = Squad)]
+    CrystalFiendANature,
+    #[template(id = 1193, rarity = 2, is_promo = false, name = "Aggressor", card_type = Squad)]
+    AggressorANature,
+    #[template(id = 1194, rarity = 2, is_promo = false, name = "Stone Warrior", card_type = Squad)]
+    StoneWarriorAFrost,
+    #[template(id = 1195, rarity = 3, is_promo = false, name = "Grinder", card_type = Squad)]
+    GrinderAShadow,
+    #[template(id = 1196, rarity = 2, is_promo = false, name = "Gemeye", card_type = Squad)]
+    GemeyeAShadow,
+    #[template(id = 1197, rarity = 1, is_promo = false, name = "Commandos", card_type = Squad)]
+    CommandosAShadow,
+    #[template(id = 1198, rarity = 2, is_promo = false, name = "Banditos", card_type = Squad)]
+    BanditosANature,
+    #[template(id = 1199, rarity = 1, is_promo = false, name = "Bandit Stalker", card_type = Squad)]
+    BanditStalkerAShadow,
+    #[template(id = 1200, rarity = 2, is_promo = false, name = "Windhunter", card_type = Squad)]
+    WindhunterAShadow,
+    #[template(id = 1201, rarity = 3, is_promo = false, name = "Corsair", card_type = Squad)]
+    CorsairANature,
+    #[template(id = 1202, rarity = 2, is_promo = false, name = "Gunner", card_type = Squad)]
+    GunnerAFire,
+    #[template(id = 1203, rarity = 4, is_promo = false, name = "Tortugun", card_type = Squad)]
+    TortugunAFrost,
+    #[template(id = 1204, rarity = 1, is_promo = false, name = "Skydefender", card_type = Building)]
+    SkydefenderAShadow,
+    #[template(id = 1205, rarity = 1, is_promo = false, name = "Waystation", card_type = Building)]
+    WaystationAFire,
+    #[template(id = 1206, rarity = 2, is_promo = false, name = "Artillery", card_type = Building)]
+    ArtilleryAShadow,
+    #[template(id = 1207, rarity = 1, is_promo = false, name = "Stone Launcher", card_type = Building)]
+    StoneLauncherAFrost,
+    #[template(id = 1208, rarity = 2, is_promo = false, name = "Stone Hurler", card_type = Building)]
+    StoneHurlerAFire,
+    #[template(id = 1209, rarity = 1, is_promo = false, name = "Hammerfall", card_type = Building)]
+    HammerfallANature,
+    #[template(id = 1210, rarity = 2, is_promo = false, name = "Deepgorge", card_type = Building)]
+    DeepgorgeAFrost,
+    #[template(id = 1214, rarity = 2, is_promo = false, name = "Scorched Earth", card_type = Spell)]
+    ScorchedEarthAFire,
+    #[template(id = 1219, rarity = 2, is_promo = false, name = "Vileblood", card_type = Squad)]
+    VilebloodAFire,
+    #[template(id = 1220, rarity = 1, is_promo = false, name = "Slaver", card_type = Squad)]
+    SlaverAFire,
+    #[template(id = 1221, rarity = 1, is_promo = false, name = "Twilight Minions", card_type = Squad)]
+    TwilightMinionsAFire,
+    #[template(id = 1222, rarity = 2, is_promo = false, name = "Envenom", card_type = Spell)]
+    EnvenomAShadow,
+    #[template(id = 1223, rarity = 1, is_promo = false, name = "Equilibrium", card_type = Spell)]
+    EquilibriumAFrost,
+    #[template(id = 1224, rarity = 2, is_promo = false, name = "Deathglider", card_type = Squad)]
+    DeathgliderANature,
+    #[template(id = 1225, rarity = 2, is_promo = false, name = "Mutating Maniac", card_type = Squad)]
+    MutatingManiacANature,
+    #[template(id = 1226, rarity = 4, is_promo = false, name = "Skycatcher", card_type = Squad)]
+    SkycatcherANature,
+    #[template(id = 1227, rarity = 3, is_promo = false, name = "Nightshade Plant", card_type = Squad)]
+    NightshadePlantANature,
+    #[template(id = 1228, rarity = 3, is_promo = false, name = "Twilight Creeper", card_type = Squad)]
+    TwilightCreeperAFire,
+    #[template(id = 1229, rarity = 2, is_promo = false, name = "Amii Ritual", card_type = Spell)]
+    AmiiRitualAFrost,
+    #[template(id = 1230, rarity = 1, is_promo = false, name = "Twilight Bombard", card_type = Building)]
+    TwilightBombardAFire,
+    #[template(id = 1231, rarity = 2, is_promo = false, name = "Hatecaster", card_type = Building)]
+    HatecasterAShadow,
+    #[template(id = 1232, rarity = 1, is_promo = false, name = "Fleshbender", card_type = Building)]
+    FleshbenderAShadow,
+    #[template(id = 1233, rarity = 2, is_promo = false, name = "Willzapper", card_type = Building)]
+    WillzapperAFire,
+    #[template(id = 1235, rarity = 1, is_promo = false, name = "Knight of Chaos", card_type = Squad)]
+    KnightOfChaosAFrost,
+    #[template(id = 1236, rarity = 3, is_promo = false, name = "Icefang Raptor", card_type = Squad)]
+    IcefangRaptorAFire,
+    #[template(id = 1237, rarity = 3, is_promo = false, name = "Firesworn", card_type = Squad)]
+    FireswornAFrost,
+    #[template(id = 1238, rarity = 1, is_promo = false, name = "Sun Reaver", card_type = Squad)]
+    SunReaverAFire,
+    #[template(id = 1239, rarity = 3, is_promo = false, name = "Dryad", card_type = Squad)]
+    DryadANature,
+    #[template(id = 1240, rarity = 2, is_promo = false, name = "Deep One", card_type = Squad)]
+    DeepOneANature,
+    #[template(id = 1241, rarity = 1, is_promo = false, name = "Witchclaws", card_type = Squad)]
+    WitchclawsAShadow,
+    #[template(id = 1242, rarity = 1, is_promo = false, name = "Frost Bite", card_type = Spell)]
+    FrostBiteAShadow,
+    #[template(id = 1243, rarity = 3, is_promo = false, name = "Earthen Gift", card_type = Spell)]
+    EarthenGiftAFire,
+    #[template(id = 1244, rarity = 1, is_promo = false, name = "Unity", card_type = Spell)]
+    UnityANature,
+    #[template(id = 1254, rarity = 3, is_promo = false, name = "Amok", card_type = Spell)]
+    AmokAFire,
+    #[template(id = 1255, rarity = 4, is_promo = false, name = "Promise of Life", card_type = Spell)]
+    PromiseofLifeANature,
+    #[template(id = 1256, rarity = 2, is_promo = false, name = "Second Chance", card_type = Spell)]
+    SecondChanceANature,
+    #[template(id = 1262, rarity = 3, is_promo = false, name = "Mo", card_type = Squad)]
+    Mo,
+    #[template(id = 1263, rarity = 3, is_promo = false, name = "Viridya", card_type = Squad)]
+    Viridya,
+    #[template(id = 1264, rarity = 3, is_promo = false, name = "Rogan Kayle", card_type = Squad)]
+    RoganKayle,
+    #[template(id = 1265, rarity = 3, is_promo = false, name = "Ravenheart", card_type = Squad)]
+    Ravenheart,
+    #[template(id = 1267, rarity = 1, is_promo = false, name = "Lightblade", card_type = Squad)]
+    LightbladeAFire,
+    #[template(id = 1273, rarity = 3, is_promo = false, name = "Northstar", card_type = Building)]
+    NorthstarANature,
+    #[template(id = 1274, rarity = 3, is_promo = true, name = "Mo!", card_type = Squad)]
+    MoPromo,
+    #[template(id = 1275, rarity = 3, is_promo = true, name = "Viridya!", card_type = Squad)]
+    ViridyaPromo,
+    #[template(id = 1276, rarity = 3, is_promo = true, name = "Rogan Kayle!", card_type = Squad)]
+    RoganKaylePromo,
+    #[template(id = 1277, rarity = 3, is_promo = true, name = "Ravenheart!", card_type = Squad)]
+    RavenheartPromo,
+    #[template(id = 1278, rarity = 3, is_promo = false, name = "Stormsinger", card_type = Squad)]
+    StormsingerANature,
+    #[template(id = 1279, rarity = 4, is_promo = false, name = "Core Dredge", card_type = Squad)]
+    CoreDredgeAFire,
+    #[template(id = 1280, rarity = 2, is_promo = false, name = "Frontier Keep", card_type = Building)]
+    FrontierKeepAFire,
+    #[template(id = 1281, rarity = 4, is_promo = false, name = "Gravity Surge", card_type = Spell)]
+    GravitySurgeAShadow,
+    #[template(id = 1282, rarity = 2, is_promo = false, name = "Amii Ritual", card_type = Spell)]
+    AmiiRitualANature,
+    #[template(id = 1283, rarity = 1, is_promo = false, name = "Frost Bite", card_type = Spell)]
+    FrostBiteAFire,
+    #[template(id = 1284, rarity = 1, is_promo = false, name = "Nomad", card_type = Squad)]
+    NomadANature,
+    #[template(id = 1285, rarity = 3, is_promo = false, name = "Gladiatrix", card_type = Squad)]
+    GladiatrixAShadow,
+    #[template(id = 1286, rarity = 4, is_promo = false, name = "Thunder Wagon", card_type = Squad)]
+    ThunderWagonAShadow,
+    #[template(id = 1287, rarity = 1, is_promo = false, name = "Blaster Cannon", card_type = Building)]
+    BlasterCannonAShadow,
+    #[template(id = 1288, rarity = 2, is_promo = false, name = "Infernal Machine", card_type = Building)]
+    InfernalMachineAFire,
+    #[template(id = 1290, rarity = 4, is_promo = false, name = "Disenchant", card_type = Spell)]
+    DisenchantANature,
+    #[template(id = 1291, rarity = 2, is_promo = false, name = "Scorched Earth", card_type = Spell)]
+    ScorchedEarth,
+    #[template(id = 1292, rarity = 1, is_promo = false, name = "Unity", card_type = Spell)]
+    UnityAFrost,
+    #[template(id = 1293, rarity = 4, is_promo = false, name = "Forest Elder", card_type = Squad)]
+    ForestElderAShadow,
+    #[template(id = 1294, rarity = 3, is_promo = false, name = "Amazon", card_type = Squad)]
+    AmazonANature,
+    #[template(id = 1295, rarity = 1, is_promo = false, name = "Spirit Hunters", card_type = Squad)]
+    SpiritHuntersAShadow,
+    #[template(id = 1296, rarity = 4, is_promo = false, name = "Tortugun", card_type = Squad)]
+    TortugunAFire,
+    #[template(id = 1297, rarity = 3, is_promo = false, name = "Bloodhorn", card_type = Squad)]
+    BloodhornAFire,
+    #[template(id = 1298, rarity = 3, is_promo = false, name = "Nightguard", card_type = Squad)]
+    NightguardANature,
+    #[template(id = 1299, rarity = 3, is_promo = false, name = "Grinder", card_type = Squad)]
+    GrinderAFire,
+    #[template(id = 1300, rarity = 4, is_promo = false, name = "Rageflame", card_type = Squad)]
+    RageflameAFire,
+    #[template(id = 1301, rarity = 1, is_promo = false, name = "Root Nexus", card_type = Building)]
+    RootNexusAFrost,
+    #[template(id = 1302, rarity = 2, is_promo = false, name = "Howling Shrine", card_type = Building)]
+    HowlingShrineAShadow,
+    #[template(id = 1303, rarity = 2, is_promo = false, name = "Envenom", card_type = Spell)]
+    EnvenomAFire,
+    #[template(id = 1304, rarity = 1, is_promo = false, name = "Equilibrium", card_type = Spell)]
+    EquilibriumANature,
+    #[template(id = 1305, rarity = 4, is_promo = false, name = "Promise of Life", card_type = Spell)]
+    PromiseofLifeAFrost,
+    #[template(id = 1306, rarity = 4, is_promo = false, name = "Nox Carrier", card_type = Squad)]
+    NoxCarrierAShadow,
+    #[template(id = 1307, rarity = 1, is_promo = false, name = "Snapjaws", card_type = Squad)]
+    SnapjawsAShadow,
+    #[template(id = 1308, rarity = 3, is_promo = false, name = "Soul Splicer", card_type = Building)]
+    SoulSplicerAFire,
+    #[template(id = 1309, rarity = 2, is_promo = false, name = "Time Vortex", card_type = Spell)]
+    TimeVortexAFrost,
+    #[template(id = 1310, rarity = 4, is_promo = false, name = "Nether Warp", card_type = SpellMulti)]
+    NetherWarpANature,
+    #[template(id = 1311, rarity = 1, is_promo = false, name = "Offering", card_type = Spell)]
+    OfferingAFrost,
+    #[template(id = 1312, rarity = 2, is_promo = false, name = "Second Chance", card_type = Spell)]
+    SecondChanceAShadow,
+    #[template(id = 1313, rarity = 1, is_promo = false, name = "Commandos", card_type = Squad)]
+    CommandosAFrost,
+    #[template(id = 1315, rarity = 2, is_promo = false, name = "Banditos", card_type = Squad)]
+    BanditosAFrost,
+    #[template(id = 1316, rarity = 1, is_promo = false, name = "Bandit Stalker", card_type = Squad)]
+    BanditStalkerANature,
+    #[template(id = 1317, rarity = 2, is_promo = false, name = "Windhunter", card_type = Squad)]
+    WindhunterANature,
+    #[template(id = 1318, rarity = 3, is_promo = false, name = "Corsair", card_type = Squad)]
+    CorsairAShadow,
+    #[template(id = 1319, rarity = 2, is_promo = false, name = "Gunner", card_type = Squad)]
+    GunnerAShadow,
+    #[template(id = 1320, rarity = 2, is_promo = false, name = "Bandit Launcher", card_type = Building)]
+    BanditLauncherAShadow,
+    #[template(id = 1321, rarity = 1, is_promo = false, name = "Skydefender", card_type = Building)]
+    SkydefenderANature,
+    #[template(id = 1322, rarity = 1, is_promo = false, name = "Waystation", card_type = Building)]
+    WaystationAShadow,
+    #[template(id = 1324, rarity = 2, is_promo = false, name = "Artillery", card_type = Building)]
+    ArtilleryAFire,
+    #[template(id = 1325, rarity = 1, is_promo = false, name = "Stone Tempest", card_type = Squad)]
+    StoneTempestAShadow,
+    #[template(id = 1326, rarity = 1, is_promo = false, name = "Stone Shards", card_type = Squad)]
+    StoneShardsAFire,
+    #[template(id = 1327, rarity = 3, is_promo = false, name = "Crystal Fiend", card_type = Squad)]
+    CrystalFiendAFrost,
+    #[template(id = 1328, rarity = 3, is_promo = false, name = "Sandstorm", card_type = SpellMulti)]
+    SandstormAFire,
+    #[template(id = 1329, rarity = 3, is_promo = false, name = "Amok", card_type = Spell)]
+    AmokANature,
+    #[template(id = 1330, rarity = 2, is_promo = false, name = "Gemeye", card_type = Squad)]
+    GemeyeANature,
+    #[template(id = 1331, rarity = 2, is_promo = false, name = "Aggressor", card_type = Squad)]
+    AggressorAFrost,
+    #[template(id = 1332, rarity = 3, is_promo = false, name = "Matter Mastery", card_type = Spell)]
+    MatterMasteryAShadow,
+    #[template(id = 1333, rarity = 2, is_promo = false, name = "Stone Warrior", card_type = Squad)]
+    StoneWarriorANature,
+    #[template(id = 1334, rarity = 3, is_promo = false, name = "Earthen Gift", card_type = Spell)]
+    EarthenGiftAShadow,
+    #[template(id = 1335, rarity = 1, is_promo = false, name = "Stone Launcher", card_type = Building)]
+    StoneLauncherAShadow,
+    #[template(id = 1336, rarity = 2, is_promo = false, name = "Stone Hurler", card_type = Building)]
+    StoneHurlerAShadow,
+    #[template(id = 1337, rarity = 1, is_promo = false, name = "Hammerfall", card_type = Building)]
+    HammerfallAFrost,
+    #[template(id = 1338, rarity = 2, is_promo = false, name = "Deepgorge", card_type = Building)]
+    DeepgorgeAFire,
+    #[template(id = 1339, rarity = 3, is_promo = false, name = "Sandstorm", card_type = SpellMulti)]
+    SandstormAShadow,
+    #[template(id = 1343, rarity = 1, is_promo = false, name = "Northland Drake", card_type = Squad)]
+    NorthlandDrakeAFire,
+    #[template(id = 1344, rarity = 3, is_promo = false, name = "Batariel", card_type = Squad)]
+    BatarielAFire,
+    #[template(id = 1345, rarity = 4, is_promo = false, name = "Grim Bahir", card_type = Squad)]
+    GrimBahirAFire,
+    #[template(id = 1346, rarity = 4, is_promo = false, name = "Ironclad", card_type = Squad)]
+    IroncladAFrost,
+    #[template(id = 1347, rarity = 4, is_promo = false, name = "Abyssal Warder", card_type = Squad)]
+    AbyssalWarderAFrost,
+    #[template(id = 1348, rarity = 3, is_promo = false, name = "Satanael", card_type = Squad)]
+    SatanaelAFire,
+    #[template(id = 1361, rarity = 4, is_promo = false, name = "Lost Warlord", card_type = Squad)]
+    LostWarlordAFire,
+    #[template(id = 1372, rarity = 1, is_promo = false, name = "Burrow Ritual", card_type = Spell)]
+    BurrowRitualANature,
+    #[template(id = 1375, rarity = 2, is_promo = false, name = "Deep One", card_type = Squad)]
+    DeepOneAShadow,
+    #[template(id = 1376, rarity = 2, is_promo = false, name = "Stranglehold", card_type = Building)]
+    StrangleholdAShadow,
+    #[template(id = 1377, rarity = 2, is_promo = false, name = "Stranglehold", card_type = Building)]
+    StrangleholdANature,
+    #[template(id = 1379, rarity = 2, is_promo = false, name = "Pyromaniac", card_type = Squad)]
+    PyromaniacAFrost,
+    #[template(id = 1380, rarity = 2, is_promo = false, name = "Pyromaniac", card_type = Squad)]
+    PyromaniacAFire,
+    #[template(id = 1382, rarity = 1, is_promo = false, name = "Knight of Chaos", card_type = Squad)]
+    KnightOfChaosAShadow,
+    #[template(id = 1385, rarity = 3, is_promo = false, name = "Satanael", card_type = Squad)]
+    SatanaelAShadow,
+    #[template(id = 1386, rarity = 3, is_promo = false, name = "Firesworn", card_type = Squad)]
+    FireswornAFire,
+    #[template(id = 1389, rarity = 1, is_promo = false, name = "Burrow Ritual", card_type = Spell)]
+    BurrowRitualAFire,
+    #[template(id = 1391, rarity = 3, is_promo = false, name = "Dryad", card_type = Squad)]
+    DryadAFrost,
+    #[template(id = 1392, rarity = 1, is_promo = false, name = "Incubator", card_type = Building)]
+    IncubatorAFire,
+    #[template(id = 1394, rarity = 1, is_promo = false, name = "Warden's Sigil", card_type = Building)]
+    WardensSigilANature,
+    #[template(id = 1395, rarity = 1, is_promo = false, name = "Warden's Sigil", card_type = Building)]
+    WardensSigilAFrost,
+    #[template(id = 1397, rarity = 2, is_promo = false, name = "Kobold Inc.", card_type = Building)]
+    KoboldIncAFrost,
+    #[template(id = 1398, rarity = 4, is_promo = false, name = "Volcano", card_type = Building)]
+    VolcanoAFire,
+    #[template(id = 1399, rarity = 1, is_promo = false, name = "Incubator", card_type = Building)]
+    IncubatorAShadow,
+    #[template(id = 1401, rarity = 3, is_promo = false, name = "Sylvan Gate", card_type = Building)]
+    SylvanGateAFire,
+    #[template(id = 1402, rarity = 1, is_promo = false, name = "Necroblaster", card_type = Building)]
+    NecroblasterAShadow,
+    #[template(id = 1409, rarity = 4, is_promo = false, name = "Grim Bahir", card_type = Squad)]
+    GrimBahirANature,
+    #[template(id = 1410, rarity = 1, is_promo = false, name = "Lost Wanderer", card_type = Squad)]
+    LostWandererANature,
+    #[template(id = 1411, rarity = 3, is_promo = false, name = "Lost Shade", card_type = Squad)]
+    LostShadeAFrost,
+    #[template(id = 1412, rarity = 1, is_promo = false, name = "Lost Dancer", card_type = Squad)]
+    LostDancer,
+    #[template(id = 1413, rarity = 2, is_promo = false, name = "Lost Reaver", card_type = Squad)]
+    LostReaverAFire,
+    #[template(id = 1414, rarity = 2, is_promo = false, name = "Lost Vigil", card_type = Squad)]
+    LostVigilANature,
+    #[template(id = 1415, rarity = 2, is_promo = false, name = "Lost Spirit Ship", card_type = Squad)]
+    LostSpiritShipANature,
+    #[template(id = 1416, rarity = 3, is_promo = false, name = "Lost Grigori", card_type = Squad)]
+    LostGrigoriAShadow,
+    #[template(id = 1428, rarity = 2, is_promo = false, name = "Vileblood", card_type = Squad)]
+    VilebloodANature,
+    #[template(id = 1429, rarity = 1, is_promo = false, name = "Slaver", card_type = Squad)]
+    SlaverAShadow,
+    #[template(id = 1430, rarity = 1, is_promo = false, name = "Lost Launcher", card_type = Building)]
+    LostLauncherAFire,
+    #[template(id = 1431, rarity = 1, is_promo = false, name = "Lost Disruptor", card_type = Building)]
+    LostDisruptorANature,
+    #[template(id = 1432, rarity = 2, is_promo = false, name = "Lost Converter", card_type = Building)]
+    LostConverterAFrost,
+    #[template(id = 1433, rarity = 2, is_promo = false, name = "Lost Banestone", card_type = Building)]
+    LostBanestoneANature,
+    #[template(id = 1434, rarity = 3, is_promo = false, name = "Lost Shade", card_type = Squad)]
+    LostShadeAShadow,
+    #[template(id = 1436, rarity = 2, is_promo = false, name = "Lost Reaver", card_type = Squad)]
+    LostReaverAShadow,
+    #[template(id = 1438, rarity = 2, is_promo = false, name = "Lost Vigil", card_type = Squad)]
+    LostVigilAShadow,
+    #[template(id = 1439, rarity = 2, is_promo = false, name = "Architect's Call", card_type = Spell)]
+    ArchitectsCallAFrost,
+    #[template(id = 1440, rarity = 1, is_promo = false, name = "Lost Disruptor", card_type = Building)]
+    LostDisruptorAShadow,
+    #[template(id = 1442, rarity = 4, is_promo = false, name = "Lost Warlord", card_type = Squad)]
+    LostWarlordAFrost,
+    #[template(id = 1443, rarity = 3, is_promo = false, name = "Lost Grigori", card_type = Squad)]
+    LostGrigoriAFire,
+    #[template(id = 1444, rarity = 3, is_promo = false, name = "Twilight Curse", card_type = Spell)]
+    TwilightCurseAShadow,
+    #[template(id = 1447, rarity = 3, is_promo = false, name = "Twilight Curse", card_type = Spell)]
+    TwilightCurseAFire,
+    #[template(id = 1448, rarity = 2, is_promo = false, name = "Architect's Call", card_type = Spell)]
+    ArchitectsCallAShadow,
+    #[template(id = 1449, rarity = 4, is_promo = false, name = "Ironclad", card_type = Squad)]
+    IroncladAFire,
+    #[template(id = 1450, rarity = 1, is_promo = true, name = "Santa Claus!", card_type = Squad)]
+    SantaClaus,
+    #[template(id = 1451, rarity = 2, is_promo = false, name = "Mutating Maniac", card_type = Squad)]
+    MutatingManiacAFire,
+    #[template(id = 1458, rarity = 2, is_promo = false, name = "Kobold Inc.", card_type = Building)]
+    KoboldIncAShadow,
+    #[template(id = 1465, rarity = 3, is_promo = false, name = "Batariel", card_type = Squad)]
+    BatarielAShadow,
+    #[template(id = 1466, rarity = 4, is_promo = false, name = "Evocator's Woe", card_type = Spell)]
+    EvocatorsWoeAShadow,
+    #[template(id = 1467, rarity = 4, is_promo = false, name = "Evocator's Woe", card_type = Spell)]
+    EvocatorsWoeANature,
+    #[template(id = 1468, rarity = 3, is_promo = false, name = "Icefang Raptor", card_type = Squad)]
+    IcefangRaptorAFrost,
+    #[template(id = 1469, rarity = 2, is_promo = false, name = "Dying Breed", card_type = Spell)]
+    DyingBreedAShadow,
+    #[template(id = 1470, rarity = 2, is_promo = false, name = "Dying Breed", card_type = Spell)]
+    DyingBreedANature,
+    #[template(id = 1471, rarity = 3, is_promo = false, name = "Sylvan Gate", card_type = Building)]
+    SylvanGateAFrost,
+    #[template(id = 1472, rarity = 1, is_promo = false, name = "Lost Wanderer", card_type = Squad)]
+    LostWandererAFrost,
+    #[template(id = 1474, rarity = 1, is_promo = false, name = "Sun Reaver", card_type = Squad)]
+    SunReaverANature,
+    #[template(id = 1475, rarity = 4, is_promo = false, name = "Forest's Vim", card_type = Spell)]
+    ForestsVimAShadow,
+    #[template(id = 1477, rarity = 4, is_promo = false, name = "Abyssal Warder", card_type = Squad)]
+    AbyssalWarderAFire,
+    #[template(id = 1480, rarity = 1, is_promo = false, name = "Lost Dancer", card_type = Squad)]
+    LostDancerAFire,
+    #[template(id = 1482, rarity = 1, is_promo = false, name = "Northland Drake", card_type = Squad)]
+    NorthlandDrakeAFrost,
+    #[template(id = 1483, rarity = 4, is_promo = false, name = "Ice Age", card_type = Spell)]
+    IceAgeAFrost,
+    #[template(id = 1484, rarity = 3, is_promo = false, name = "Nightshade Plant", card_type = Squad)]
+    NightshadePlantAShadow,
+    #[template(id = 1485, rarity = 1, is_promo = false, name = "Twilight Minions", card_type = Squad)]
+    TwilightMinionsANature,
+    #[template(id = 1486, rarity = 2, is_promo = false, name = "Deathglider", card_type = Squad)]
+    DeathgliderAFrost,
+    #[template(id = 1487, rarity = 4, is_promo = false, name = "Skycatcher", card_type = Squad)]
+    SkycatcherAFrost,
+    #[template(id = 1488, rarity = 2, is_promo = false, name = "Willzapper", card_type = Building)]
+    WillzapperAShadow,
+    #[template(id = 1489, rarity = 3, is_promo = false, name = "Twilight Creeper", card_type = Squad)]
+    TwilightCreeperAShadow,
+    #[template(id = 1490, rarity = 1, is_promo = false, name = "Fleshbender", card_type = Building)]
+    FleshbenderAFire,
+    #[template(id = 1495, rarity = 1, is_promo = false, name = "Necroblaster", card_type = Building)]
+    NecroblasterANature,
+    #[template(id = 1496, rarity = 4, is_promo = false, name = "Ice Age", card_type = Spell)]
+    IceAgeANature,
+    #[template(id = 1497, rarity = 4, is_promo = false, name = "Volcano", card_type = Building)]
+    VolcanoANature,
+    #[template(id = 1498, rarity = 1, is_promo = false, name = "Global Warming", card_type = Spell)]
+    GlobalWarmingAFrost,
+    #[template(id = 1499, rarity = 1, is_promo = false, name = "Global Warming", card_type = Spell)]
+    GlobalWarmingAFire,
+    #[template(id = 1500, rarity = 1, is_promo = false, name = "Glaciation", card_type = Spell)]
+    GlaciationAFire,
+    #[template(id = 1501, rarity = 1, is_promo = false, name = "Glaciation", card_type = Spell)]
+    GlaciationAFrost,
+    #[template(id = 1502, rarity = 3, is_promo = false, name = "Revenant's Blessing", card_type = Spell)]
+    RevenantsBlessing,
+    #[template(id = 1503, rarity = 3, is_promo = false, name = "Revenant's Blessing", card_type = Spell)]
+    RevenantsBlessingANature,
+    #[template(id = 1505, rarity = 2, is_promo = false, name = "Lost Spirit Ship", card_type = Squad)]
+    LostSpiritShipAFire,
+    #[template(id = 1508, rarity = 2, is_promo = false, name = "Lost Banestone", card_type = Building)]
+    LostBanestoneAFrost,
+    #[template(id = 1509, rarity = 1, is_promo = false, name = "Lost Launcher", card_type = Building)]
+    LostLauncherAFrost,
+    #[template(id = 1510, rarity = 2, is_promo = false, name = "Hatecaster", card_type = Building)]
+    HatecasterANature,
+    #[template(id = 1511, rarity = 1, is_promo = false, name = "Twilight Bombard", card_type = Building)]
+    TwilightBombardAFrost,
+    #[template(id = 1512, rarity = 2, is_promo = false, name = "Lost Converter", card_type = Building)]
+    LostConverter,
+    #[template(id = 1513, rarity = 4, is_promo = false, name = "Protector's Seal (Lost Souls)", card_type = Spell)]
+    ProtectorsSealLS,
+    #[template(id = 1514, rarity = 4, is_promo = false, name = "Protector's Seal (Twilight)", card_type = Spell)]
+    ProtectorsSealT,
+    #[template(id = 1515, rarity = 2, is_promo = false, name = "Green Peace", card_type = Spell)]
+    GreenPeaceAFire,
+    #[template(id = 1516, rarity = 2, is_promo = false, name = "Green Peace", card_type = Spell)]
+    GreenPeaceAFrost,
+    #[template(id = 1517, rarity = 4, is_promo = false, name = "Forest's Vim", card_type = Spell)]
+    ForestsVimANature,
+    #[template(id = 1518, rarity = 1, is_promo = false, name = "Infernal Chain", card_type = Spell)]
+    InfernalChainANature,
+    #[template(id = 1519, rarity = 1, is_promo = false, name = "Infernal Chain", card_type = Spell)]
+    InfernalChainAFrost,
+    #[template(id = 1520, rarity = 4, is_promo = false, name = "Cluster Explosion", card_type = Spell)]
+    ClusterExplosionAShadow,
+    #[template(id = 1521, rarity = 4, is_promo = false, name = "Cluster Explosion", card_type = Spell)]
+    ClusterExplosionAFire,
+    #[template(id = 1522, rarity = 3, is_promo = false, name = "Lost Evocation", card_type = Spell)]
+    LostEvocationAFire,
+    #[template(id = 1525, rarity = 3, is_promo = false, name = "Lost Evocation", card_type = Spell)]
+    LostEvocationAFrost,
+    #[template(id = 1526, rarity = 3, is_promo = false, name = "Twilight Pestilence", card_type = Spell)]
+    TwilightPestilenceANature,
+    #[template(id = 1527, rarity = 3, is_promo = false, name = "Twilight Pestilence", card_type = Spell)]
+    TwilightPestilenceAFrost,
+    #[template(id = 1528, rarity = 2, is_promo = false, name = "Befallen's Curse", card_type = Spell)]
+    BefallensCurseAShadow,
+    #[template(id = 1529, rarity = 2, is_promo = false, name = "Befallen's Curse", card_type = Spell)]
+    BefallensCurseAFire,
+    #[template(id = 1530, rarity = 3, is_promo = false, name = "Curse Well", card_type = Spell)]
+    CurseWell,
+    #[template(id = 1531, rarity = 4, is_promo = false, name = "QueekQueek", card_type = Squad)]
+    QueekQueek,
+    #[template(id = 1532, rarity = 2, is_promo = false, name = "Moon", card_type = Squad)]
+    Moon,
+    #[template(id = 1533, rarity = 3, is_promo = false, name = "Jorne", card_type = Squad)]
+    Jorne,
+    #[template(id = 1536, rarity = 1, is_promo = false, name = "Warlock", card_type = Squad)]
+    WarlockAFire,
+    #[template(id = 1537, rarity = 3, is_promo = false, name = "Treespirit", card_type = Squad)]
+    TreespiritAShadow,
+    #[template(id = 1538, rarity = 3, is_promo = false, name = "Mountain Rowdy", card_type = Squad)]
+    MountainRowdyAShadow,
+    #[template(id = 1539, rarity = 1, is_promo = false, name = "Witchclaws", card_type = Squad)]
+    WitchclawsAFire,
+    #[template(id = 1540, rarity = 1, is_promo = false, name = "Warlock", card_type = Squad)]
+    WarlockAFrost,
+    #[template(id = 1541, rarity = 3, is_promo = false, name = "Treespirit", card_type = Squad)]
+    TreespiritANature,
+    #[template(id = 1542, rarity = 2, is_promo = false, name = "Lost Priest", card_type = Squad)]
+    LostPriest,
+    #[template(id = 1543, rarity = 1, is_promo = false, name = "Lost Horror", card_type = Squad)]
+    LostHorrorANature,
+    #[template(id = 1544, rarity = 1, is_promo = false, name = "Lost Dragon", card_type = Squad)]
+    LostDragonANature,
+    #[template(id = 1545, rarity = 1, is_promo = false, name = "Lost Dragon", card_type = Squad)]
+    LostDragonAShadow,
+    #[template(id = 1548, rarity = 1, is_promo = false, name = "Bandit Spearmen", card_type = Squad)]
+    BanditSpearmenAFire,
+    #[template(id = 1549, rarity = 1, is_promo = false, name = "Bandit Spearmen", card_type = Squad)]
+    BanditSpearmenAFrost,
+    #[template(id = 1550, rarity = 3, is_promo = false, name = "Mountain Rowdy", card_type = Squad)]
+    MountainRowdyAFrost,
+    #[template(id = 1552, rarity = 2, is_promo = false, name = "Lost Priest", card_type = Squad)]
+    LostPriestAShadow,
+    #[template(id = 1554, rarity = 1, is_promo = false, name = "Twilight Brute", card_type = Squad)]
+    TwilightBruteAFire,
+    #[template(id = 1555, rarity = 1, is_promo = false, name = "Twilight Brute", card_type = Squad)]
+    TwilightBruteANature,
+    #[template(id = 1558, rarity = 1, is_promo = false, name = "Lost Horror", card_type = Squad)]
+    LostHorrorAFire,
+    #[template(id = 1561, rarity = 3, is_promo = false, name = "Abomination", card_type = Squad)]
+    AbominationAFrost,
+    #[template(id = 1562, rarity = 3, is_promo = false, name = "Abomination", card_type = Squad)]
+    AbominationAShadow,
+    #[template(id = 1563, rarity = 2, is_promo = false, name = "Soulhunter", card_type = Squad)]
+    SoulhunterAFrost,
+    #[template(id = 1564, rarity = 2, is_promo = false, name = "Soulhunter", card_type = Squad)]
+    SoulhunterAShadow,
+    #[template(id = 1565, rarity = 3, is_promo = false, name = "Deepfang", card_type = Squad)]
+    Deepfang,
+    #[template(id = 1567, rarity = 3, is_promo = false, name = "Deepfang", card_type = Squad)]
+    DeepfangANature,
+    #[template(id = 1568, rarity = 2, is_promo = false, name = "Bandit Lancer", card_type = Squad)]
+    BanditLancerAShadow,
+    #[template(id = 1569, rarity = 2, is_promo = false, name = "Bandit Lancer", card_type = Squad)]
+    BanditLancerANature,
+    #[template(id = 1570, rarity = 2, is_promo = false, name = "Earthkeeper", card_type = Squad)]
+    EarthkeeperAFrost,
+    #[template(id = 1571, rarity = 2, is_promo = false, name = "Earthkeeper", card_type = Squad)]
+    EarthkeeperAFire,
+    #[template(id = 1572, rarity = 4, is_promo = false, name = "Oracle Mask", card_type = Building)]
+    OracleMaskANature,
+    #[template(id = 1573, rarity = 2, is_promo = false, name = "Razorshard", card_type = Squad)]
+    RazorshardAFire,
+    #[template(id = 1574, rarity = 2, is_promo = false, name = "Razorshard", card_type = Squad)]
+    RazorshardANature,
+    #[template(id = 1575, rarity = 1, is_promo = false, name = "Treefiend", card_type = Squad)]
+    TreefiendAShadow,
+    #[template(id = 1576, rarity = 1, is_promo = false, name = "Treefiend", card_type = Squad)]
+    TreefiendANature,
+    #[template(id = 1577, rarity = 4, is_promo = false, name = "Oracle Mask", card_type = Building)]
+    OracleMaskAFire,
+    #[template(id = 1578, rarity = 3, is_promo = false, name = "The Incredible Mo", card_type = Building)]
+    TheIncredibleMo,
+    #[template(id = 1579, rarity = 3, is_promo = false, name = "Frenetic Assault", card_type = Spell)]
+    FreneticAssaultANature,
+    #[template(id = 1580, rarity = 1, is_promo = false, name = "Mumbo Jumbo", card_type = Spell)]
+    MumboJumboAShadow,
+    #[template(id = 1581, rarity = 1, is_promo = false, name = "Mumbo Jumbo", card_type = Spell)]
+    MumboJumboAFire,
+    #[template(id = 1582, rarity = 3, is_promo = false, name = "Frenetic Assault", card_type = Spell)]
+    FreneticAssaultAShadow,
+    #[template(id = 1583, rarity = 1, is_promo = false, name = "Northern Keep", card_type = Building)]
+    NorthernKeepAFire,
+    #[template(id = 1584, rarity = 1, is_promo = false, name = "Sunken Temple", card_type = Building)]
+    SunkenTempleAShadow,
+    #[template(id = 1585, rarity = 1, is_promo = true, name = "Easter Egg!", card_type = Squad)]
+    EasterEgg,
+    #[template(id = 1586, rarity = 3, is_promo = false, name = "Wintertide", card_type = Spell)]
+    WintertideAFrost,
+    #[template(id = 1587, rarity = 3, is_promo = false, name = "Wintertide", card_type = Spell)]
+    WintertideAFire,
+    #[template(id = 1588, rarity = 4, is_promo = false, name = "Twilight Warfare", card_type = Spell)]
+    TwilightWarfareAFire,
+    #[template(id = 1589, rarity = 3, is_promo = false, name = "Amii Monument", card_type = Building)]
+    AmiiMonument,
+    #[template(id = 1590, rarity = 4, is_promo = false, name = "Twilight Warfare", card_type = Spell)]
+    TwilightWarfareAShadow,
+    #[template(id = 1592, rarity = 1, is_promo = false, name = "Sunken Temple", card_type = Building)]
+    SunkenTempleANature,
+    #[template(id = 1595, rarity = 1, is_promo = false, name = "Flame Crystal", card_type = Building)]
+    FlameCrystal,
+    #[template(id = 1596, rarity = 1, is_promo = false, name = "Earth Crystal", card_type = Building)]
+    EarthCrystal,
+    #[template(id = 1597, rarity = 1, is_promo = false, name = "Ice Crystal", card_type = Building)]
+    IceCrystal,
+    #[template(id = 1598, rarity = 1, is_promo = false, name = "Dark Crystal", card_type = Building)]
+    DarkCrystal,
+    #[template(id = 1599, rarity = 1, is_promo = false, name = "Northern Keep", card_type = Building)]
+    NorthernKeepAFrost,
+    #[template(id = 1600, rarity = 1, is_promo = false, name = "Infected Tower", card_type = Building)]
+    InfectedTowerAFire,
+    #[template(id = 1604, rarity = 1, is_promo = false, name = "Infected Tower", card_type = Building)]
+    InfectedTowerAFrost,
+    #[template(id = 1605, rarity = 2, is_promo = false, name = "Rioter's Retreat", card_type = Building)]
+    RiotersRetreatANature,
+    #[template(id = 1606, rarity = 2, is_promo = false, name = "Rioter's Retreat", card_type = Building)]
+    RiotersRetreatAFrost,
+    #[template(id = 1607, rarity = 3, is_promo = true, name = "Grinder!", card_type = Squad)]
+    GrinderAShadowPromo,
+    #[template(id = 1608, rarity = 1, is_promo = false, name = "Stone Shell", card_type = Spell)]
+    StoneShellAShadow,
+    #[template(id = 1610, rarity = 1, is_promo = false, name = "Stone Shell", card_type = Spell)]
+    StoneShellANature,
+    #[template(id = 1611, rarity = 1, is_promo = false, name = "Ethereal Storm", card_type = Spell)]
+    EtherealStormAFire,
+    #[template(id = 1612, rarity = 1, is_promo = false, name = "Ethereal Storm", card_type = Spell)]
+    EtherealStormAFrost,
+    #[template(id = 1613, rarity = 1, is_promo = false, name = "Warrior's Death", card_type = Spell)]
+    WarriorsDeathAFire,
+    #[template(id = 1614, rarity = 1, is_promo = false, name = "Warrior's Death", card_type = Spell)]
+    WarriorsDeathAFrost,
+    #[template(id = 1615, rarity = 4, is_promo = false, name = "Lord Cyrian", card_type = Squad)]
+    LordCyrian,
+    #[template(id = 1616, rarity = 1, is_promo = false, name = "Bandit Sorceress", card_type = Squad)]
+    BanditSorceressAFrost,
+    #[template(id = 1617, rarity = 1, is_promo = false, name = "Girl Power", card_type = Spell)]
+    GirlPowerAFrost,
+    #[template(id = 1618, rarity = 1, is_promo = false, name = "Girl Power", card_type = Spell)]
+    GirlPower,
+    #[template(id = 1619, rarity = 1, is_promo = false, name = "Twilight Hag", card_type = Squad)]
+    TwilightHagANature,
+    #[template(id = 1620, rarity = 1, is_promo = false, name = "Bandit Sorceress", card_type = Squad)]
+    BanditSorceressAFire,
+    #[template(id = 1622, rarity = 1, is_promo = false, name = "Twilight Hag", card_type = Squad)]
+    TwilightHagAFire,
+    #[template(id = 1624, rarity = 3, is_promo = false, name = "Brannoc", card_type = Squad)]
+    Brannoc,
+    #[template(id = 1628, rarity = 2, is_promo = false, name = "Eliminator", card_type = Squad)]
+    EliminatorAFire,
+    #[template(id = 1629, rarity = 2, is_promo = false, name = "Eliminator", card_type = Squad)]
+    EliminatorAFrost,
+    #[template(id = 1639, rarity = 1, is_promo = true, name = "Santa Claus!", card_type = Squad)]
+    SantaClausWithPresents,
+    #[template(id = 1640, rarity = 1, is_promo = false, name = "Amii Phantom", card_type = Squad)]
+    AmiiPhantom,
+    #[template(id = 1642, rarity = 1, is_promo = true, name = "Snapjaws!", card_type = Squad)]
+    SnapjawsAFirePromo,
+    #[template(id = 1664, rarity = 1, is_promo = false, name = "Fire Sphere", card_type = Spell)]
+    FireSphere,
+    #[template(id = 1665, rarity = 3, is_promo = false, name = "Plague", card_type = Spell)]
+    Plague,
+    #[template(id = 1666, rarity = 2, is_promo = false, name = "Amii Paladins", card_type = Squad)]
+    AmiiPaladins,
+    #[template(id = 1667, rarity = 2, is_promo = false, name = "Coat of Protection", card_type = Spell)]
+    CoatOfProtectionAFrost,
+    #[template(id = 1668, rarity = 2, is_promo = false, name = "Coat of Protection", card_type = Spell)]
+    CoatOfProtectionAShadow,
+    #[template(id = 1669, rarity = 2, is_promo = false, name = "Bandit Sniper", card_type = Squad)]
+    BanditSniper,
+    #[template(id = 1670, rarity = 3, is_promo = false, name = "Bandit Minefield", card_type = SpellMulti)]
+    BanditMinefield,
+    #[template(id = 1671, rarity = 3, is_promo = false, name = "Banzai Lord", card_type = Squad)]
+    BanzaiLordAShadow,
+    #[template(id = 1673, rarity = 3, is_promo = false, name = "Banzai Lord", card_type = Squad)]
+    BanzaiLordANature,
+    #[template(id = 1675, rarity = 3, is_promo = true, name = "Mana Wing!", card_type = Squad)]
+    ManaWingPromo,
+    #[template(id = 1676, rarity = 2, is_promo = false, name = "Burning Spears", card_type = Squad)]
+    BurningSpears,
+    #[template(id = 1677, rarity = 3, is_promo = false, name = "Transcendence", card_type = Spell)]
+    Transcendence,
+    #[template(id = 1678, rarity = 2, is_promo = false, name = "Wasteland Terror", card_type = Squad)]
+    WastelandTerrorAFire,
+    #[template(id = 1679, rarity = 2, is_promo = false, name = "Wasteland Terror", card_type = Squad)]
+    WastelandTerrorANature,
+    #[template(id = 1680, rarity = 2, is_promo = false, name = "Twilight Crawlers", card_type = Squad)]
+    TwilightCrawlers,
+    #[template(id = 1681, rarity = 2, is_promo = false, name = "Twilight Slayers", card_type = Squad)]
+    TwilightSlayersAFire,
+    #[template(id = 1682, rarity = 2, is_promo = false, name = "Twilight Slayers", card_type = Squad)]
+    TwilightSlayersAShadow,
+    #[template(id = 1683, rarity = 3, is_promo = false, name = "Tranquility", card_type = Spell)]
+    Tranquility,
+    #[template(id = 1684, rarity = 2, is_promo = false, name = "Evil Eye", card_type = Squad)]
+    EvilEye,
+    #[template(id = 1685, rarity = 3, is_promo = false, name = "Sanctuary", card_type = Spell)]
+    SanctuaryAFrost,
+    #[template(id = 1686, rarity = 3, is_promo = false, name = "Sanctuary", card_type = Spell)]
+    SanctuaryANature,
+    #[template(id = 1687, rarity = 3, is_promo = false, name = "Raven Archwalker", card_type = Squad)]
+    RavenArchwalker,
+    #[template(id = 1688, rarity = 3, is_promo = true, name = "Worldbreaker Gun!", card_type = Building)]
+    WorldbreakerGunPromo,
+    #[template(id = 1689, rarity = 2, is_promo = false, name = "Sleet Storm", card_type = Spell)]
+    SleetStorm,
+    #[template(id = 1690, rarity = 3, is_promo = false, name = "Soulstone", card_type = Building)]
+    Soulstone,
+    #[template(id = 1691, rarity = 3, is_promo = false, name = "Tectonic Shift", card_type = Spell)]
+    TectonicShift,
+    #[template(id = 1692, rarity = 4, is_promo = false, name = "Gate of Akylos", card_type = Building)]
+    GateOfAkylos,
+    #[template(id = 1693, rarity = 3, is_promo = false, name = "Lost Manabeast", card_type = Squad)]
+    LostManabeast,
+    #[template(id = 1695, rarity = 4, is_promo = false, name = "Bedrock", card_type = Squad)]
+    BedrockAFrost,
+    #[template(id = 1696, rarity = 4, is_promo = false, name = "Bedrock", card_type = Squad)]
+    BedrockAShadow,
+    #[template(id = 1697, rarity = 2, is_promo = false, name = "Swarm", card_type = Spell)]
+    Swarm,
+    #[template(id = 1698, rarity = 2, is_promo = false, name = "Icespike", card_type = Squad)]
+    Icespike,
+    #[template(id = 1699, rarity = 4, is_promo = false, name = "Umbabwe", card_type = Squad)]
+    Umbabwe,
+    #[template(id = 1700, rarity = 2, is_promo = false, name = "Amii Sentinel", card_type = Squad)]
+    AmiiSentinel,
+    #[template(id = 1701, rarity = 3, is_promo = false, name = "Energy Core", card_type = Squad)]
+    EnergyCore,
+    #[template(id = 1702, rarity = 3, is_promo = false, name = "Skydancer", card_type = Squad)]
+    Skydancer,
+    #[template(id = 1703, rarity = 3, is_promo = false, name = "Simulacrum", card_type = Squad)]
+    Simulacrum,
+    #[template(id = 1704, rarity = 3, is_promo = true, name = "Jorne!", card_type = Squad)]
+    JornePromo,
+    #[template(id = 1705, rarity = 1, is_promo = false, name = "Twilight Archers", card_type = Squad)]
+    TwilightArchers,
+    #[template(id = 1706, rarity = 4, is_promo = false, name = "Power Shrine", card_type = Building)]
+    PowerShrine,
+    #[template(id = 1707, rarity = 3, is_promo = false, name = "Bandit Hut", card_type = Building)]
+    BanditHut,
+    #[template(id = 1709, rarity = 3, is_promo = false, name = "Molt", card_type = Spell)]
+    Molt,
+    #[template(id = 1710, rarity = 3, is_promo = false, name = "Hellhound", card_type = Squad)]
+    Hellhound,
+    #[template(id = 1711, rarity = 2, is_promo = false, name = "Spirit Gate", card_type = Spell)]
+    SpiritGate,
+    #[template(id = 1712, rarity = 2, is_promo = true, name = "Frost Mage!", card_type = Squad)]
+    FrostMagePromo,
+    #[template(id = 1713, rarity = 4, is_promo = false, name = "Devourer", card_type = Squad)]
+    Devourer,
+    #[template(id = 1714, rarity = 3, is_promo = false, name = "Treasure Wagon", card_type = Squad)]
+    TreasureWagon,
+    #[template(id = 1715, rarity = 3, is_promo = true, name = "Sunderer!", card_type = Squad)]
+    SundererPromo,
