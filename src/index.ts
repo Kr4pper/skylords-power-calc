@@ -1,4 +1,4 @@
-import {readFileSync} from 'fs';
+import {existsSync, readFileSync, writeFileSync} from 'fs';
 import {SmjAbilityType, SMJ_DATA, SmjCardType} from './util/smj-data';
 
 const RESET = '\x1b[0m';
@@ -10,6 +10,12 @@ const green = (text: string) => `${TEXT_GREEN}${text}${RESET}`;
 const red = (text: string) => `${TEXT_RED}${text}${RESET}`;
 const yellow = (text: string) => `${TEXT_YELLOW}${text}${RESET}`;
 
+const output: string[] = [];
+const log = (text: string) => {
+	console.log(text);
+	output.push(text);
+};
+
 enum CommandType {
 	PowerAdd = "power",
 	VoidAdd = "void",
@@ -20,13 +26,16 @@ enum CommandType {
 	KillEntity = "kill",
 	BuildWell = "well",
 	BuildOrb = "orb",
+	Boost = "boost",
+	Unboost = "unboost",
 	Buff = "buff",
 	PrintState = "print",
+	Wait = "wait",
 }
 
 enum BuffType {
-	ShrineOfMemory = "shrine of memory",
-	PowerShrine = "power shrine",
+	ShrineOfMemory = "Shrine of Memory",
+	PowerShrine = "Power Shrine",
 }
 
 const BUFFS: {[key: string]: BuffType;} = {
@@ -58,6 +67,7 @@ type Command = {
 	discount?: number,
 	void?: number,
 	well?: number,
+	boosts?: number[],
 	buff?: Buff,
 };
 
@@ -105,6 +115,10 @@ const parseCommands = (line: string): Command[] => {
 			case CommandType.BuildWell:
 				if (args.length !== 1) throw new Error('Build well command expects 1 argument but got:' + args);
 				return [{type, when, power: -100, well: +args[0], description: `Build power well (${args[0]})`}];
+			case CommandType.Boost:
+				return [{type, when, power: -50, boosts: args.map(Number), description: `Boost power wells ${args.join('+')}`}];
+			case CommandType.Unboost:
+				return [{type, when, void: 45, boosts: args.map(Number), description: `Unboost power wells ${args.join('+')}`}];
 			case CommandType.BuildOrb:
 				if (args.length !== 1) throw new Error('Build orb command expects 1 argument but got:' + args);
 				const orbCosts = [null, 0, 150, 250, 300];
@@ -167,11 +181,13 @@ const parseCommands = (line: string): Command[] => {
 			case CommandType.PrintState:
 			case '~':
 				return [{type: CommandType.PrintState, when, description: 'Print state'}];
+			case CommandType.Wait:
+				return [{type: CommandType.Wait, when, description: 'Waiting for timer'}];
 			default:
 				throw new Error('Command type not implemented:' + type);
 		}
 	} catch (e) {
-		console.log({when, type, line});
+		console.error({when, type, line});
 		throw e;
 	}
 };
@@ -199,10 +215,24 @@ const handlers: Record<CommandType, (command: Command) => void> = {
 		if (newPower < 0) throw new Error(`Cant build power well for ${-command.power} power since there is only ${power} power`);
 		power = newPower;
 
-		wells.push({max: command.well, until: now + 2 * command.well});
+		wells.push({id: nextWellId++, remaining: command.well, max: command.well, boosted: false});
+	},
+	[CommandType.Boost]: command => {
+		const newPower = power + command.power;
+		if (newPower < 0) throw new Error(`Cant build resource booster for ${-command.power} power since there is only ${power} power`);
+		power = newPower;
+
+		command.boosts.forEach(id => wells.find(well => well.id === id).boosted = true);
+	},
+	[CommandType.Unboost]: command => {
+		const unboostIds = command.boosts;
+		if (unboostIds.some(id => !wells.find(well => well.id === id).boosted)) throw new Error('Can\'t unboost a well that is not boosted');
+		command.boosts.forEach(id => wells.find(well => well.id === id).boosted = false);
+
+		voidPower += command.void;
 	},
 	[CommandType.StartWells]: command => {
-		wells.push({max: command.well, until: now + 2 * command.well});
+		wells.push({id: nextWellId++, remaining: command.well, max: command.well, boosted: false});
 	},
 	[CommandType.PlayCard]: command => {
 		const discountedCost = command.power * (1 - command.discount || 0);
@@ -264,33 +294,41 @@ const handlers: Record<CommandType, (command: Command) => void> = {
 			until: now + command.buff.duration,
 		});
 	},
+	[CommandType.Wait]: () => {},
 	[CommandType.PrintState]: () => {
-		console.log({
-			power: Math.round(power),
-			void: Math.round(voidPower),
-			wells: wells.filter(w => w.until >= now).map(w => `${Math.ceil((w.until - now) / 2)}/${w.max}`),
-			entities,
-			buffs: buffs.map(buff => `${buff.type} (${buff.stacks} uses, ${toTimestamp(buff.until - now)} remaining)`),
-		});
+		log(`> Power/Void: ${Math.round(power)} + ${Math.round(voidPower)}`);
+		if (wells.length) log(`> Wells: ${wells.map(w => `[${w.id}${w.boosted ? '*' : ''}] ${w.remaining}/${w.max}`).join(', ')}`);
+		if (Object.entries(entities).length) log(`> Entities: ${Object.entries(entities).map(([entityName, amount]) => `${amount}x ${entityName}`).join(', ')}`);
+		if (buffs.length) log(`> Buffs: ${buffs.map(buff => `${buff.type} (${buff.stacks} uses, ${toTimestamp(buff.until - now)} remaining)`)}`);
 	}
 };
 
-const wells: {until: number; max: number;}[] = [];
+const wells: {id: number, remaining: number; max: number; boosted: boolean;}[] = [];
 const entities: {[name: string]: number;} = {};
 const buffs: {type: BuffType, until: number, stacks: number, }[] = [];
+let nextWellId = 1;
 let now = 0;
 let power = 0;
 let voidPower = 0;
 
 const tick = () => {
-	if (now % 2 === 0) {
-		power += wells.filter(w => w.until >= now).length;
-	}
-
 	if (voidPower > 0) {
 		const voidReturn = (0.01 * voidPower) * (buffs.some(b => b.type === BuffType.ShrineOfMemory) ? 4 : 1);
 		power += voidReturn;
 		voidPower -= voidReturn;
+	}
+
+	if (now % 2 === 0) {
+		for (let idx = 0; idx < wells.length; idx++) {
+			const well = wells[idx];
+			power += well.boosted ? 1.35 : 1;
+			well.remaining -= well.boosted ? 3 : 1;
+
+			if (well.remaining <= 0) {
+				wells.splice(idx, 1);
+				idx++;
+			}
+		}
 	}
 
 	for (let idx = 0; idx < buffs.length; idx++) {
@@ -299,6 +337,7 @@ const tick = () => {
 			idx--;
 		}
 	}
+
 	now++;
 };
 
@@ -309,14 +348,19 @@ for (const command of commands) {
 		while (true) {
 			try {
 				handlers[command.type](command);
+				log(`[${toTimestamp(now)}]: ${command.description} (calculated)`);
 				break;
 			} catch (e) {
 				tick();
 			}
 		}
 	} else {
+		log(`[${toTimestamp(now)}]: ${command.description}`);
 		handlers[command.type](command);
 	}
-
-	console.log(`[${command.when === Asap ? green(toTimestamp(now)) : toTimestamp(now)}]: ${command.description}`);
 }
+
+const runName = process.argv[2].substring(process.argv[2].lastIndexOf('\\') + 1);
+const outFile = `output\\${runName}`;
+writeFileSync(outFile, output.join('\n'));
+console.log('\nFile written:', outFile);

@@ -1,4 +1,5 @@
 dist/
 node_modules/
-input.txt
+input/
+output/
 tsconfig.tsbuildinfo

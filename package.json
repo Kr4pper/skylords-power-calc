@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rmdir /s /q dist && tsc -b && xcopy src\\util\\*.json dist\\util",
     "start": "node dist/index.js",
-    "restart": "npm run build && cross-env LOG_LEVEL=INFO npm run start input.txt",
+    "restart": "npm run build && cross-env LOG_LEVEL=INFO npm run start",
     "parseCards": "node dist/util/parse-card-ids.js",
     "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
