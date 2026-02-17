@@ -1,4 +1,4 @@
-import {existsSync, readFileSync, writeFileSync} from 'fs';
+import {readFileSync, writeFileSync} from 'fs';
 import {SmjAbilityType, SMJ_DATA, SmjCardType} from './util/smj-data';
 
 const RESET = '\x1b[0m';
@@ -182,7 +182,8 @@ const parseCommands = (line: string): Command[] => {
 			case '~':
 				return [{type: CommandType.PrintState, when, description: 'Print state'}];
 			case CommandType.Wait:
-				return [{type: CommandType.Wait, when, description: 'Waiting for timer'}];
+				if (args.length !== 1) throw new Error('Wait command expects 1 argument but got:' + args);
+				return [{type: CommandType.Wait, when, power: +args[0], description: 'Waiting for timer'}];
 			default:
 				throw new Error('Command type not implemented:' + type);
 		}
@@ -263,6 +264,7 @@ const handlers: Record<CommandType, (command: Command) => void> = {
 			if (!entities[command.entity]) entities[command.entity] = 1;
 			else entities[command.entity]++;
 		}
+		lastCardPlay = now;
 	},
 	[CommandType.KillEntity]: command => {
 		if (!entities[command.entity]) throw new Error(`no entity "${command.entity}" to kill`);
@@ -291,10 +293,12 @@ const handlers: Record<CommandType, (command: Command) => void> = {
 		buffs.push({
 			type: command.buff.type,
 			stacks: command.buff.stacks,
-			until: now + command.buff.duration,
+			until: now + command.buff.duration - 1,
 		});
 	},
-	[CommandType.Wait]: () => {},
+	[CommandType.Wait]: command => {
+		for (let i = 0; i < command.power; i++) tick();
+	},
 	[CommandType.PrintState]: () => {
 		log(`> Power/Void: ${Math.round(power)} + ${Math.round(voidPower)}`);
 		if (wells.length) log(`> Wells: ${wells.map(w => `[${w.id}${w.boosted ? '*' : ''}] ${w.remaining}/${w.max}`).join(', ')}`);
@@ -310,6 +314,7 @@ let nextWellId = 1;
 let now = 0;
 let power = 0;
 let voidPower = 0;
+let lastCardPlay = -1;
 
 const tick = () => {
 	if (voidPower > 0) {
@@ -332,7 +337,7 @@ const tick = () => {
 	}
 
 	for (let idx = 0; idx < buffs.length; idx++) {
-		if (buffs[idx].until < now) {
+		if (buffs[idx].until <= now) {
 			buffs.splice(idx, 1);
 			idx--;
 		}
@@ -343,6 +348,8 @@ const tick = () => {
 
 for (const command of commands) {
 	while (command.when > now) tick();
+
+	if (command.type === CommandType.PlayCard && [Asap, Now].includes(command.when) && lastCardPlay === now) tick(); // account for card play lockout
 
 	if (command.when === Asap) {
 		while (true) {
